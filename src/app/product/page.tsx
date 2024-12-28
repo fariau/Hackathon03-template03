@@ -3,12 +3,14 @@ import { IoIosArrowUp } from "react-icons/io";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FiFilter } from "react-icons/fi";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+
 export default function Featured() {
   return (
     <main className="my-20 max-w-[1300px] mx-auto flex gap-x-4 lg:gap-x-20">
       <section className="flex flex-col max-w-[200px]">
         <h1 className="font-semibold text-sm  md:text-2xl">New(500)</h1>
-        <div className="font-medium text-[9px] lg:text-md max-w-[150px] space-y-2 mt-6 flex flex-col">
+        <div className="font-medium text-[15px] lg:text-md max-w-[150px] space-y-2 mt-6 flex flex-col">
           <Link href={""}>Shoes</Link>
           <Link href={""}>Sports Bras</Link>
           <Link href={""}>Tops & T-Shirts</Link>
@@ -32,15 +34,15 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
+
               Men
             </h1>
             <h1 className="flex gap-2 items-center">
-             
+
               Women
             </h1>
             <h1 className="flex gap-2 items-center">
-             
+
               Unisex
             </h1>
           </div>
@@ -55,11 +57,11 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-              
+
               Boys
             </h1>
             <h1 className="flex gap-2 items-center">
-              
+
               Girls
             </h1>
           </div>
@@ -74,11 +76,11 @@ export default function Featured() {
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
             <h1 className="flex gap-2 items-center">
-           
+
               Under ₹ 2 500.00
             </h1>
             <h1 className="flex gap-2 items-center">
-             ₹ 2 501.00 - ₹ 7 500.00
+              ₹ 2 501.00 - ₹ 7 500.00
             </h1>
           </div>
         </div>
@@ -100,7 +102,92 @@ export default function Featured() {
         </div>
         <div className="mb-20">
         </div>
+
+        <div className="flex justify-evenly flex-wrap gap-5">
+          <div>
+            <Image width={300} height={300} alt="" src={"/p1.jpg"} />
+            <p className="text-[#9E3500]">Just In</p>
+            <p>Nike Air Force 1 Mid '07</p>
+            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 10 795.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p2.jpg"} />
+            <p className="text-[#9E3500]">Just In</p>
+            <p>Nike Court Vision Low Next Nature</p>
+            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 4 995.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p3.jpg"} />
+            <p className="text-[#9E3500]">Just In</p>
+            <p>Nike Air Force 1 PLT.AF.ORM</p>
+            <p className="text-[#757575]">Women's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 8 695.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p4.jpg"} />
+            <p className="text-[#9E3500]">just in</p>
+            <p>Nike Air Force 1 React</p>
+            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 13 295.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p5.jpg"} />
+            <p className="text-[#9E3500]">Promo Exclusion</p>
+            <p>Air Jordan 1 Elevate Low</p>
+            <p className="text-[#757575]">Women's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 11 895.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p6.jpg"} />
+            <p className="text-[#9E3500]">Just In</p>
+            <p>Nike Standard Issue</p>
+            <p className="text-[#757575]">Women's Basketball Jersey</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 2 895.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p7.jpg"} />
+            <p className="text-[#9E3500]">Promo Exclusion</p>
+            <p>Nike Dunk Low Retro SE</p>
+            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 9 695.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p8.jpg"} />
+            <p className="text-[#9E3500]">Sustainable Materials</p>
+            <p>Nike Dri-FIT UV Hyverse</p>
+            <p className="text-[#757575]">Men's Short-Sleeve Graphic Fitness Top</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 2 495.00</p>
+          </div>
+
+          <div>
+            <Image width={300} height={300} alt="" src={"/p9.jpg"} />
+            <p className="text-[#9E3500]">Just On</p>
+            <p>Nike Court Vision Low</p>
+            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">1 Colour</p> <br />
+            <p className="text-[#111111]">MRP : ₹ 5 695.00</p>
+          </div>
+        </div>
+
         <hr />
+        <br />
         <section className="my-10">
           <h1 className="font-semibold text-xl">Related Categories</h1>
           <div className="space-x-2 space-y-2">

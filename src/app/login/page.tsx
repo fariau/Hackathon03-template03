@@ -23,16 +23,16 @@ export default function Login(){
                     </div>
                         
                     <div className="flex justify-between max-w-lg mx-auto mt-6 gap-x-10 md:gap-x-16">
-                        <h1 className="text-[#BCBCBC] text-[12px] flex gap-1 items-center"><input type="checkbox" />Keep me signed In</h1>
-                        <p className="text-[#BCBCBC] text-[12px]"   >Forgotten your password?</p>
+                        <h1 className="text-[#8D8D8D] text-[12px] flex gap-1 items-center"><input type="checkbox" />Keep me signed In</h1>
+                        <p className="text-[#8D8D8D] text-[12px]"   >Forgotten your password?</p>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-4">
-                        <p className="text-[#BCBCBC] text-[12px]">By logging in, you agree to Nike & apos;s <u>Privacy Policy</u></p>
-                        <p className="text-[#BCBCBC] text-[12px]">and <u>Terms of Use</u></p>
+                        <p className="text-[#8D8D8D] text-[12px]">By logging in, you agree to Nike & apos;s <u>Privacy Policy</u></p>
+                        <p className="text-[#8D8D8D] text-[12px]">and <u>Terms of Use</u></p>
                     </div>
                 
                    <Button className="w-80 ronded-sm my-6">SIGN IN</Button>
-                    <p className="text-[#BCBCBC] text-[12px]">Not a Member <u className="text-black"><Link href={"/joinus"}>Join us?</Link></u></p>
+                    <p className="text-[#8D8D8D] text-[12px]">Not a Member <u className="text-black"><Link href={"/joinus"}>Join us?</Link></u></p>
                 </div>
             </section>
         </main>

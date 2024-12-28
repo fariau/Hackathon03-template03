@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function Essential() {
   return (
     <section className="m-4" >

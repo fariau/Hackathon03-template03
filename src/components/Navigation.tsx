@@ -12,14 +12,14 @@ export default function Navigation() {
               <li>
                 <Link
                   href="#"
-                  className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
-                >
+                  className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                   Air Force 1
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#" className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"> Huarache
+                  href="#" className="block hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                  Huarache
                 </Link>
               </li>
               <li>
