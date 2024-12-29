@@ -26,83 +26,49 @@ export default function Featured() {
         </div>
         <div className="mt-10">
           <hr />
-          <h1 className="font-semibold flex justify-between items-center text-sm mt-1">
-            Gender
-            <span>
-              <IoIosArrowUp />
-            </span>
+          <h1 className="font-semibold flex justify-between items-center text-sm mt-1">Gender
+            <span><IoIosArrowUp /></span>
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
-            <h1 className="flex gap-2 items-center">
-
-              Men
-            </h1>
-            <h1 className="flex gap-2 items-center">
-
-              Women
-            </h1>
-            <h1 className="flex gap-2 items-center">
-
-              Unisex
-            </h1>
+            <h1 className="flex gap-2 items-center"> Men</h1>
+            <h1 className="flex gap-2 items-center">Women </h1>
+            <h1 className="flex gap-2 items-center"> Unisex </h1>
           </div>
         </div>
         <div className="mt-10">
           <hr />
-          <h1 className="font-semibold flex justify-between text-sm items-center mt-1">
-            Kids
-            <span>
-              <IoIosArrowUp />
-            </span>
+          <h1 className="font-semibold flex justify-between text-sm items-center mt-1"> Kids
+            <span><IoIosArrowUp /></span>
           </h1>
           <div className="mt-2 text-[9px] lg:text-sm">
-            <h1 className="flex gap-2 items-center">
-
-              Boys
-            </h1>
-            <h1 className="flex gap-2 items-center">
-
-              Girls
-            </h1>
+            <h1 className="flex gap-2 items-center"> Boys</h1>
+            <h1 className="flex gap-2 items-center"> Girls</h1>
           </div>
         </div>
         <div className="mt-10">
           <hr />
           <h1 className="font-semibold flex text-[9px] lg:text-[12px] justify-between items-center mt-1">
             Sort By Price
-            <span>
-              <IoIosArrowUp />
-            </span>
-          </h1>
-          <div className="mt-2 text-[9px] lg:text-sm">
-            <h1 className="flex gap-2 items-center">
+            <span><IoIosArrowUp /> </span></h1>
 
-              Under ₹ 2 500.00
-            </h1>
-            <h1 className="flex gap-2 items-center">
-              ₹ 2 501.00 - ₹ 7 500.00
-            </h1>
+          <div className="mt-2 text-[9px] lg:text-sm">
+            <h1 className="flex gap-2 items-center"> Under ₹ 2 500.00</h1>
+            <h1 className="flex gap-2 items-center"> ₹ 2 501.00 - ₹ 7 500.00</h1>
           </div>
         </div>
       </section>
+
       <section className="max-w-[1000px] mx-auto overflow-clip">
         <div className="flex gap-4 ml-10 md:ml-[400px] lg:ml-[620px] xl:ml-[800px] overflow-clip">
-          <h1 className="flex items-center gap-2 font-semibold text-sm">
-            Hide Filters
-            <span>
-              <FiFilter size={14} />
-            </span>
+          <h1 className="flex items-center gap-2 font-semibold text-sm"> Hide Filters
+            <span> <FiFilter size={14} /> </span>
           </h1>
-          <h2 className="flex items-center gap-2 font-semibold text-sm">
-            Sort By
-            <span>
-              <RiArrowDropDownLine size={25} />
-            </span>
+          <h2 className="flex items-center gap-2 font-semibold text-sm"> Sort By
+            <span><RiArrowDropDownLine size={25} /> </span>
           </h2>
         </div>
         <div className="mb-20">
         </div>
-
         <div className="flex justify-evenly flex-wrap gap-5">
           <div>
             <Image width={300} height={300} alt="" src={"/p1.jpg"} />
@@ -133,7 +99,7 @@ export default function Featured() {
 
           <div>
             <Image width={300} height={300} alt="" src={"/p4.jpg"} />
-            <p className="text-[#9E3500]">just in</p>
+            <p className="text-[#9E3500]">Just In</p>
             <p>Nike Air Force 1 React</p>
             <p className="text-[#757575]">Men's Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
@@ -178,7 +144,7 @@ export default function Featured() {
 
           <div>
             <Image width={300} height={300} alt="" src={"/p9.jpg"} />
-            <p className="text-[#9E3500]">Just On</p>
+            <p className="text-[#9E3500]">Just In</p>
             <p>Nike Court Vision Low</p>
             <p className="text-[#757575]">Men's Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
