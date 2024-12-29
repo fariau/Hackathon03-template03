@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function cart() {
   return (
@@ -7,26 +8,26 @@ export default function cart() {
       <div className="max-w-5xl w-full bg-white  p-6">
 
         <div className="mt-6 text-sm text-gray-500">
-          Free Delivery applies to orders of ₹ 14,000.00 or more.{' '}
-          <a href="#" className="text-blue-500 hover:underline">
-            View details
-          </a>
+          Free Delivery applies to orders of ₹ 14,000.00 or more.
+          <a href="#" className="text-blue-500 hover:underline"> View details</a>
         </div><br />
 
         <div className="grid grid-cols-3 gap-6">
           <div className="col-span-2">
             <h1 className="text-lg font-bold mb-4">Bag</h1>
             <div className="flex items-center justify-between border-b pb-4 mb-4">
-              <img
+              <Image
                 src="/cart-img.jpeg"
                 alt="Nike Dri-FIT ADV TechKnit Ultra"
+                width={300}
+                height={300}
                 className="w-24 h-24 rounded-md border"
               />
               <div className="ml-4 flex-1">
                 <h3 className="font-medium text-gray-800">
                   Nike Dri-FIT ADV TechKnit Ultra
                 </h3>
-                <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+                <p className="text-sm text-gray-600">Men&apos;s Short-Sleeve Running Top</p>
                 <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>
                 <p className="text-sm text-gray-500">Size: L</p>
               </div>
@@ -41,7 +42,7 @@ export default function cart() {
 
               <div className="ml-10 flex-1">
                 <h3 className="font-medium text-gray-800 ">Nike Air Max 97 SE</h3>
-                <p className="text-sm text-gray-600">Men's Shoes</p>
+                <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
                 <p className="text-sm text-gray-500">Flat Pewter/Light Bone/Black/White</p>
                 <p className="text-sm text-gray-500">Size: 8</p>
               </div>

@@ -1,12 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
 import { CiShoppingCart } from "react-icons/ci";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export default function ProductDetail() {
   return (
@@ -23,17 +17,13 @@ export default function ProductDetail() {
 
       {/* Right Section - Content */}
       <div className="lg:w-1/2 mt-6 lg:mt-0 text-center lg:text-left">
-        <h2 className="text-xl lg:text-4xl font-medium text-deepBlack mb-4">
-          Nike Air Force 1 PLT.AF.ORM
-        </h2>
+        <h2 className="text-xl lg:text-4xl font-medium text-deepBlack mb-4"> Nike Air Force 1 PLT.AF.ORM </h2>
         <p className="text-sm font-light text-deepBlack mb-6 leading-7">
           Turn style on its head with this crafted take on the Air Jordan 1 Mid.
-          Its "inside out"-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette.
+          Its &#39;inside out&#39;-inspired construction, including unique layering and exposed foam accents, ups the ante on this timeless Jordan Brand silhouette.
           Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.
         </p>
-        <p className="text-4xl font-medium text-deepBlack mb-6">
-          ₹ 8 695.00
-        </p>
+        <p className="text-4xl font-medium text-deepBlack mb-6"> ₹ 8 695.00</p>
         <button className="flex items-center justify-center bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 transition duration-300">
           <CiShoppingCart className="w-6 h-6 mr-2" />
           Add to Cart

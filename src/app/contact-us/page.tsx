@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import { AiFillLike } from "react-icons/ai";
 import { AiFillDislike } from "react-icons/ai";
@@ -35,7 +36,7 @@ export const ContactUs = (): JSX.Element => {
             </ul>
             <p className="mt-4 text-sm text-[#111111]">
               Nike Members can store multiple debit or credit cards in their
-              profile for faster checkout. If you’re not already a Member,{" "}
+              profile for faster checkout. If you&apos;re not already a Member,{" "}
               <a href="joinus" className="underline">
                 join us
               </a>{" "}
@@ -57,13 +58,13 @@ export const ContactUs = (): JSX.Element => {
               <p className="font-bold">What payment method is accepted for SNKRS orders?</p>
               <p>You can use any accepted credit card to pay for your SNKRS order.</p><br />
               <p className="font-bold">Why don't I see Apple Pay as an option?</p>
-              <p>To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.</p><br />
+              <p>To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p><br />
               <p>Was this answer helpful?</p>
               <div className="flex justify-start gap-2">
                 <AiFillLike /><AiFillDislike />
               </div> <br />
               <p className="text-[#757575]">RELATED</p><br />
-              <p className="text-[#111111]">WHAT ARE NIKE'S DELIVERY OPTIONS?</p>
+              <p className="text-[#111111]">WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</p>
               <p className="text-[#111111]">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</p>
             </div>
           </article>
@@ -72,7 +73,7 @@ export const ContactUs = (): JSX.Element => {
           <aside className="w-full lg:w-[300px]">
             <div className="flex justify-center items-center flex-col gap-3 p-10 text-center">
               <h3 className="text-3xl text-center font-bold text-[#111111]">CONTACT US</h3><br />
-              <img src="/mobile.png" alt="/" />
+              <Image src="/mobile.png" alt="/" width={70} height={70} />
               <ul className="mt-4 space-y-4 text-sm text-[#111111] text-center">
                 <p>000 800 919 0566</p>
                 <p>Products & Orders: 24 hours a day,<br /> 7 days a week</p>
@@ -81,19 +82,19 @@ export const ContactUs = (): JSX.Element => {
             </div>
 
             <div className="text-center flex justify-center items-center flex-col gap-3 p-10 ">
-              <img src="/msg.png" alt="/" />
+              <Image width={70} height={70} src="/msg.png" alt="/" />
               <p>24 hours a day <br />
                 7 days a week</p>
             </div>
 
             <div className="flex justify-center items-center flex-col gap-3 p-10 text-center">
-              <img src="inbox.png" alt="/" />
-              <p>We'll reply within <br />
+              <Image width={70} height={70} src="/inbox.png" alt="/" />
+              <p>We&apos;ll reply within <br />
                 five business days</p>
             </div>
 
             <div className="flex justify-center items-center flex-col gap-2 p-10 text-center">
-              <img src="location.png" alt="" />
+              <Image width={70} height={70} src="/location.png" alt="" />
               <p>STORE LOCATOR <br />
                 Find Nike retail stores near you</p>
             </div>

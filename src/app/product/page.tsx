@@ -74,7 +74,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p1.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Air Force 1 Mid '07</p>
-            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 10 795.00</p>
           </div>
@@ -83,7 +83,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p2.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Court Vision Low Next Nature</p>
-            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 4 995.00</p>
           </div>
@@ -92,7 +92,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p3.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Air Force 1 PLT.AF.ORM</p>
-            <p className="text-[#757575]">Women's Shoes</p>
+            <p className="text-[#757575]">Women&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 8 695.00</p>
           </div>
@@ -101,7 +101,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p4.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Air Force 1 React</p>
-            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 13 295.00</p>
           </div>
@@ -110,7 +110,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p5.jpg"} />
             <p className="text-[#9E3500]">Promo Exclusion</p>
             <p>Air Jordan 1 Elevate Low</p>
-            <p className="text-[#757575]">Women's Shoes</p>
+            <p className="text-[#757575]">Women&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 11 895.00</p>
           </div>
@@ -119,7 +119,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p6.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Standard Issue</p>
-            <p className="text-[#757575]">Women's Basketball Jersey</p>
+            <p className="text-[#757575]">Women&apos;s Basketball Jersey</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 2 895.00</p>
           </div>
@@ -128,7 +128,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p7.jpg"} />
             <p className="text-[#9E3500]">Promo Exclusion</p>
             <p>Nike Dunk Low Retro SE</p>
-            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 9 695.00</p>
           </div>
@@ -137,7 +137,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p8.jpg"} />
             <p className="text-[#9E3500]">Sustainable Materials</p>
             <p>Nike Dri-FIT UV Hyverse</p>
-            <p className="text-[#757575]">Men's Short-Sleeve Graphic Fitness Top</p>
+            <p className="text-[#757575]">Men&apos;s Short-Sleeve Graphic Fitness Top</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 2 495.00</p>
           </div>
@@ -146,7 +146,7 @@ export default function Featured() {
             <Image width={300} height={300} alt="" src={"/p9.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Court Vision Low</p>
-            <p className="text-[#757575]">Men's Shoes</p>
+            <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 5 695.00</p>
           </div>
