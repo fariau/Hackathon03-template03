@@ -13,7 +13,7 @@ export default function Nav() {
         </div>
         <div className="flex md:gap-4 sm:gap-3 gap-2">
           <Link href="#" className="hover:text-gray-800">Find Link Store |</Link>
-          <Link href="contact-us" className="hover:text-gray-800">Help |</Link>
+          <Link href="contactUs" className="hover:text-gray-800">Help |</Link>
           <Link href="joinus" className="hover:text-gray-800">Join Us |</Link>
           <Link href="login" className="hover:text-gray-800">Sign In</Link>
         </div>
