@@ -54,11 +54,11 @@ export const ContactUs = (): JSX.Element => {
               <p>Yes, we recommend asking your bank to enable international purchases on your card. You will be notified at checkout if international purchases need to be enabled.</p><br />
               <p>Please note, some banks may charge a small transaction fee for international orders.</p><br />
               <p className="font-bold">Can I pay for my order with multiple methods?</p>
-              <p>No, payment for Nike orders can't be split between multiple payment methods.</p><br />
+              <p>No, payment for Nike orders can&apos;t be split between multiple payment methods.</p><br />
               <p className="font-bold">What payment method is accepted for SNKRS orders?</p>
               <p>You can use any accepted credit card to pay for your SNKRS order.</p><br />
-              <p className="font-bold">Why don't I see Apple Pay as an option?</p>
-              <p>To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p><br />
+              <p className="font-bold">Why don&apos;t I see Apple Pay as an option?</p>
+              <p>To see Apple Pay as an option in the Nike App or on Nike.com, you&apos;ll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p><br />
               <p>Was this answer helpful?</p>
               <div className="flex justify-start gap-2">
                 <AiFillLike /><AiFillDislike />

@@ -73,7 +73,7 @@ export default function Featured() {
           <div>
             <Image width={300} height={300} alt="" src={"/p1.jpg"} />
             <p className="text-[#9E3500]">Just In</p>
-            <p>Nike Air Force 1 Mid '07</p>
+            <p>Nike Air Force 1 Mid &apos;07</p>
             <p className="text-[#757575]">Men&apos;s Shoes</p>
             <p className="text-[#757575]">1 Colour</p> <br />
             <p className="text-[#111111]">MRP : ₹ 10 795.00</p>
