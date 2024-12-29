@@ -6,7 +6,7 @@ import { AiFillLike } from "react-icons/ai";
 import { AiFillDislike } from "react-icons/ai";
 import { Button } from "@/components/ui/button";
 
-export const Contactus = (): JSX.Element => {
+export default function Contactus () {
   return (
     <main className="bg-white flex flex-col items-center w-full">
       <section className="w-full max-w-[1440px] px-4 py-8">
@@ -105,4 +105,4 @@ export const Contactus = (): JSX.Element => {
   );
 };
 
-export default Contactus
+// export default Contactus
