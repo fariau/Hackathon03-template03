@@ -26,7 +26,7 @@ export default function ProductDetail() {
         <p className="text-4xl font-medium text-deepBlack mb-6"> ₹ 8 695.00</p>
         <button className="flex items-center justify-center bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 transition duration-300">
           <CiShoppingCart className="w-6 h-6 mr-2" />
-          Add to Cart
+         <a href="cart"> Add to Cart</a>
         </button>
       </div>
     </div>

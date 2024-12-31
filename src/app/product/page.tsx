@@ -89,7 +89,7 @@ export default function Featured() {
           </div>
 
           <div>
-            <Image width={300} height={300} alt="" src={"/p3.jpg"} />
+          <a href="productDetail"><Image width={300} height={300} alt="" src={"/p3.jpg"} /></a>
             <p className="text-[#9E3500]">Just In</p>
             <p>Nike Air Force 1 PLT.AF.ORM</p>
             <p className="text-[#757575]">Women&apos;s Shoes</p>

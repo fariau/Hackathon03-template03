@@ -9,7 +9,7 @@ export default function DontMiss() {
             <div className="flex flex-col justify-center items-center space-y-5 pt-10">
                 <h1 className="font-semibold text-2xl md:text-4xl">FLIGHT ESSENTIALS</h1>
                 <h2 className="text-[9px] md:text-sm">Your built-to-last,all-week wears—but with style only Jordan Brand can deliver.</h2>
-                <Button className="rounded-full">Shop</Button>
+                <Button className="rounded-full"><a href="product">shop</a></Button>
             </div>
         </section>
     )

@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 export default function Featured() {
   return (
     <main className="m-4">
@@ -21,7 +23,9 @@ export default function Featured() {
           Cause everyone should know the feeling of running in that perfect
           pair.
         </p>
-        <Button>Find Your Shoe</Button>
+        <Button>
+          <a href="product">Find Your Shoe</a>
+          </Button>
       </div>
     </main>
   );

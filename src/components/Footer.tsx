@@ -25,7 +25,7 @@ export default function Footer() {
               <li><Link href="#" className="hover:underline  text-gray-500">Delivery</Link></li>
               <li><Link href="#" className="hover:underline  text-gray-500">Returns</Link></li>
               <li><Link href="#" className="hover:underline  text-gray-500">Payment Options</Link></li>
-              <li><Link href="contact-us" className="hover:underline  text-gray-500">Contact Us on Nike.com</Link></li>
+              <li><Link href="contactUs" className="hover:underline  text-gray-500">Contact Us on Nike.com</Link></li>
               <li><Link href="#" className="hover:underline  text-gray-500">Contact Us on All Other Inquiries</Link></li>
             </ul>
           </div>

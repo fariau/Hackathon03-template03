@@ -6,7 +6,7 @@ import { AiFillLike } from "react-icons/ai";
 import { AiFillDislike } from "react-icons/ai";
 import { Button } from "@/components/ui/button";
 
-export default function Contactus () {
+export default function ContactUs () {
   return (
     <main className="bg-white flex flex-col items-center w-full">
       <section className="w-full max-w-[1440px] px-4 py-8">
@@ -61,7 +61,7 @@ export default function Contactus () {
               <p>To see Apple Pay as an option in the Nike App or on Nike.com, you&apos;ll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p><br />
               <p>Was this answer helpful?</p>
               <div className="flex justify-start gap-2">
-                <AiFillLike /><AiFillDislike />
+                <AiFillLike className="h-10 w-8" /><AiFillDislike className="h-10 w-8"/>
               </div> <br />
               <p className="text-[#757575]">RELATED</p><br />
               <p className="text-[#111111]">WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</p>
@@ -69,7 +69,6 @@ export default function Contactus () {
             </div>
           </article>
 
-          {/* Contact Information Section */}
           <aside className="w-full lg:w-[300px]">
             <div className="flex justify-center items-center flex-col gap-3 p-10 text-center">
               <h3 className="text-3xl text-center font-bold text-[#111111]">CONTACT US</h3><br />
@@ -105,4 +104,3 @@ export default function Contactus () {
   );
 };
 
-// export default Contactus
