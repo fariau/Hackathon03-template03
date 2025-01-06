@@ -18,19 +18,19 @@ export default function Join() {
 
                     </div>
                     <div className="mt-10 mb-5 max-w-[280px] mx-auto">
-                        <p className="text-[#8D8D8D] text-[12px] "   >Create your Nike Member profile and get first access to the very best of Nike products, inspiration and community</p>
+                        <p className="text-[#8D8D8D] text-[12px] ">Create your Nike Member profile and get first access to the very best of Nike products, inspiration and community</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-4 mt-3">
-                        <Input type="Email" placeholder="Email" className="w-80" />
-                        <Input type="password" placeholder="password" className="w-80" />
-                        <Input type="name" placeholder="First Name" className="w-80" />
-                        <Input type="name" placeholder="Last Name" className="w-80" />
-                        <Input type="dob" placeholder="Date of Birth" className="w-80" />
+                        <Input type="Email" placeholder="Email" className="w-80 border border-gray-400" />
+                        <Input type="password" placeholder="password" className="w-80 border border-gray-400" />
+                        <Input type="name" placeholder="First Name" className="w-80 border border-gray-400" />
+                        <Input type="name" placeholder="Last Name" className="w-80 border border-gray-400" />
+                        <Input type="dob" placeholder="Date of Birth" className="w-80 border border-gray-400" />
                         <p className="text-[#8D8D8D] text-[12px]">Get a Nike Member Reward every year on your Birthday.</p>
-                        <Input type="drop" placeholder="Pakistan" className="w-80" />
+                        <Input type="drop" placeholder="Pakistan" className="w-80 border border-gray-400" />
                         <div className="flex justify-between gap-x-10">
-                            <Input type="gender" placeholder="Male" className="w-36 h-10 " />
-                            <Input type="gender" placeholder="Female" className="w-36 h-1 p-4" />
+                            <Input type="gender" placeholder="Male" className="w-36 h-10 border border-gray-400" />
+                            <Input type="gender" placeholder="Female" className="w-36 h-1 p-4 border border-gray-400" />
                         </div>
                     </div>
 

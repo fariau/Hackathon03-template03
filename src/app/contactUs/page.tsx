@@ -17,7 +17,8 @@ export default function ContactUs () {
           <input
             type="text"
             placeholder="What can we help you with?"
-            className="border border-gray-600 w-[457px] rounded-lg " />
+           className="border border-gray-600 rounded-full pl-4 pr-10 py-2 text-sm w-[457px]"
+             />
         </div>
 
         <div className="mt-8 flex flex-col lg:flex-row gap-8">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
 
 export default function cart() {
   return (
@@ -53,7 +54,7 @@ export default function cart() {
             </div>
           </div>
 
-          {/* Summary Section */}
+          {/* Summary */}
           <div className="bg-gray-100 rounded-lg p-6 border border-gray-200">
             <h2 className="text-lg font-bold mb-4">Summary</h2>
             <div className="flex justify-between mb-2">
@@ -68,9 +69,9 @@ export default function cart() {
               <p>Total</p>
               <p>₹ 20,890.00</p>
             </div>
-            <button className="w-full bg-black text-white font-medium py-3 rounded-lg mt-4">
+            <Button className="w-full font-medium py-3 rounded-lg mt-4">
               Member Checkout
-            </button>
+            </Button>
           </div>
         </div>
       </div>

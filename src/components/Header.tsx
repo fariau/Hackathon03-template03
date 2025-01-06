@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Input } from "./ui/input";
 import { FaSearch, FaHeart, FaShoppingBag } from 'react-icons/fa';
 
 export default function Nav() {
@@ -44,7 +45,7 @@ export default function Nav() {
         <div className="flex items-center gap-4 mt-4 md:mt-0">
           {/* Search Bar */}
           <div className="relative hidden md:block">
-            <input
+            <Input
               type="text"
               placeholder="Search"
               className="border border-gray-300 rounded-full pl-4 pr-10 py-2 text-sm focus:outline-none"
@@ -52,7 +53,8 @@ export default function Nav() {
             <FaSearch className="absolute right-3 top-2.5 text-gray-500" />
           </div>
           <FaHeart className="text-gray-700 md:w-[24px] md:h-[24px] sm:w-[20px] sm:h-[20px] w-[16px] h-[16px]  cursor-pointer hover:text-black" />
-          <FaShoppingBag className="text-gray-700 md:w-[24px] md:h-[24px] sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] cursor-pointer hover:text-black" />
+          <div><a href="cart"><FaShoppingBag className="text-gray-700 md:w-[24px] md:h-[24px] sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] cursor-pointer hover:text-black" 
+          /></a></div>
         </div>
       </div>
 
