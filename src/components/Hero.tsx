@@ -20,7 +20,6 @@ export default function Hero() {
                 lg:w-[60%]">
                     Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse
                     —designed to push you past your limits and help you go to the max.
-
                 </p>
                 <div className="flex justify-center items-center gap-3"><Button>Notify Me</Button>
                     <Button>Shop Air Max</Button></div>
