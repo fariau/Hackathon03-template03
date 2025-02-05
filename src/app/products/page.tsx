@@ -23,7 +23,7 @@ export default function Featured() {
       try {
         const fetchedProducts: Product[] = await client.fetch(allproducts);
         setProducts(fetchedProducts);
-      } catch (err) {
+      } catch {
         setError("Failed to load products. Please try again later.");
       }
     }
@@ -51,7 +51,6 @@ export default function Featured() {
   }
 
   return (
-
     <main className="my-20 max-w-[1300px] mx-auto flex flex-col lg:flex-row gap-x-10">
       {/* Sidebar */}
       <section className="flex flex-col w-full lg:w-[250px] p-4 border-r">

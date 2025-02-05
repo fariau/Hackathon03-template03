@@ -1,4 +1,4 @@
-export default {
+const order = {
     name: 'order',
     type: 'document',
     title: 'Order',
@@ -52,7 +52,8 @@ export default {
             name: 'cartItems',
             title: 'Cart Items',
             type: 'array',
-            of: [{
+            of: [
+                {
                     type: 'object',
                     fields: [
                         {
@@ -72,7 +73,6 @@ export default {
                 },
             ],
         },
-
         {
             name: 'total',
             title: 'Total',
@@ -94,3 +94,5 @@ export default {
         },
     ],
 };
+
+export default order;

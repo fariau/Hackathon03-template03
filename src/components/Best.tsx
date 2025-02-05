@@ -19,27 +19,24 @@ const Best = () => {
       try {
         const fetchedProducts: Product[] = await client.fetch(four);
         setProducts(fetchedProducts);
-      } catch (err) {
+      } catch {
         setError("Failed to load products. Please try again later.");
       }
     }
     fetchProducts();
   }, []);
 
-
-  const handleAddToCart = (e :React.MouseEvent, product: Product) =>{
-    e.preventDefault()
+  const handleAddToCart = (e: React.MouseEvent, product: Product) => {
+    e.preventDefault();
     Swal.fire({
-        position: "top-right",
-        icon: "success",
-        title: `${product.productName} added to cart`,
-        showConfirmButton : false,
-        timer : 1000
-    })
-    addToCart(product)
-    // alert("ok")
-    // console.log(handleAddToCart);
-  }
+      position: "top-right",
+      icon: "success",
+      title: `${product.productName} added to cart`,
+      showConfirmButton: false,
+      timer: 1000,
+    });
+    addToCart(product);
+  };
 
   if (error) {
     return (
@@ -78,8 +75,10 @@ const Best = () => {
                 {product.price ? `$${product.price}` : "Price not available"}
               </p>
 
-              <button className="bg-gradient-to-r bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-200 ease-in-out"
-              onClick={(e) => handleAddToCart(e, product)}>
+              <button
+                className="bg-gradient-to-r bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg hover:scale-110 transition-transform duration-200 ease-in-out"
+                onClick={(e) => handleAddToCart(e, product)}
+              >
                 Add To Cart
               </button>
             </Link>
