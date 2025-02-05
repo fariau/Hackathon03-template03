@@ -13,7 +13,7 @@ export default function Nav() {
           <p className="text-black text-sm bg-white">Skip to main content</p>
         </div>
         <div className="flex md:gap-4 sm:gap-3 gap-2">
-          <Link href="#" className="hover:text-gray-800">Find Link Store |</Link>
+          <Link href="products" className="hover:text-gray-800">Find Link Store |</Link>
           <Link href="contactUs" className="hover:text-gray-800">Help |</Link>
           <Link href="joinus" className="hover:text-gray-800">Join Us |</Link>
           <Link href="login" className="hover:text-gray-800">Sign In</Link>
@@ -33,9 +33,9 @@ export default function Nav() {
 
         {/* Center section (Navigation Links) */}
         <nav className="flex gap-4 md:gap-6 text-gray-700 font-medium md:text-[16px] sm:text-[14px] text-[10px] ">
-          <Link href="product" className="hover:text-black whitespace-nowrap">New & Featured</Link>
-          <Link href="#" className="hover:text-black whitespace-nowrap">Men</Link>
-          <Link href="#" className="hover:text-black whitespace-nowrap">Women</Link>
+          <Link href="products" className="hover:text-black whitespace-nowrap">New & Featured</Link>
+          <Link href="man" className="hover:text-black whitespace-nowrap">Men</Link>
+          <Link href="women" className="hover:text-black whitespace-nowrap">Women</Link>
           <Link href="#" className="hover:text-black whitespace-nowrap">Kids</Link>
           <Link href="#" className="hover:text-black whitespace-nowrap">Sale</Link>
           <Link href="#" className="hover:text-black whitespace-nowrap">SNKRS</Link>

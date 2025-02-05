@@ -23,7 +23,7 @@ export default function Featured() {
           pair.
         </p>
         <Button>
-          <a href="product">Find Your Shoe</a>
+          <a href="products">Find Your Shoe</a>
           </Button>
       </div>
     </main>

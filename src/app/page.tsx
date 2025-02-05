@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
 import Best from "@/components/Best";
 
-
 export default function Home() {
   return (
   <main>
