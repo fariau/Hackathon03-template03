@@ -56,7 +56,11 @@ const Best = () => {
             className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-200"
           >
             <Link
-              href={product?.slug?.current ? `/product/${product.slug.current}` : "#"}
+              href={
+                product?.slug?.current
+                  ? `/product/${product.slug.current}`
+                  : "#" // Prevent invalid link if slug is missing
+              }
               className={!product?.slug?.current ? "cursor-not-allowed" : ""}
             >
               {product?.image && (
